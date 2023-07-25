@@ -13,7 +13,7 @@ Jika ada yang baru bisa beritahu saya, caranya tuliskan issue baru di repo ini
 ## Menjalankan di local
 Clone Project ini dengan git, sebelumnya download git, dan nodejs, cari di google
 
-> git clone https://github.com/dhino12/TelegramBot-AutoForward.git
+> git clone https://github.com/sayang1608/Bot-Telegram-Autoforward.git
 
 ### Install Semua Package
 > npm i
