@@ -5,7 +5,7 @@ import * as textHelp from "../../utils/textHelp.json";
 const start = async (ctx: Context): Promise<void> => {
     const inlineKeyboard = new InlineKeyboard();
     inlineKeyboard.text("🔂 Koneksi Pertama", "firstconnection").row();
-    inlineKeyboard.url("📄 Dokumentasi / Bantuan", "https://github.com/dhino12/TelegramBot-AutoForward").row();
+    inlineKeyboard.url("📄 Dokumentasi / Bantuan", "https://github.com/sayang1608/Bot-Telegram-Autoforward--master").row();
 
     try {
         await ctx.reply(`Halo ${ctx.from?.first_name || ctx.from?.username} 👋.\n${textHelp.started}`, {
